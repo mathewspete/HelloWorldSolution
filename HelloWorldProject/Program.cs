@@ -42,11 +42,9 @@ namespace HelloWorldProject {
             Console.WriteLine($"Score1 is {assessmentScores[0]} and Score2 is {assessmentScores[1]}.");
 
             string[] lang = { "Git/Github", "SQL", "C#", "Javascript", "Angular" };
-            Console.WriteLine(lang[0]);
-            Console.WriteLine(lang[1]);
-            Console.WriteLine(lang[2]);
-            Console.WriteLine(lang[3]);
-            Console.WriteLine(lang[4]);
+            for(var idx = 0;idx<lang.Length;idx++) {
+                Console.WriteLine(lang[idx]);
+            }
         }
     }
 }
